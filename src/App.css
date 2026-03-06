@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+#root, main {
+  background-color: rgb(15 23 42) !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(15 23 42) !important;
+  font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 10px;
+}
